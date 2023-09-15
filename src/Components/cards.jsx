@@ -17,7 +17,7 @@ import {faStar } from '@fortawesome/free-solid-svg-icons'
     // console.log(rate,"rate")
     // console.log(image)
     return (
-      <Card className="mt-6 sm:w-[100%] lg:w-[100%] xl:w-[100%] hover:shadow-xl">
+      <Card className="mt-6  sm:w-[100%] lg:w-[100%] xl:w-[100%] hover:shadow-xl">
         <CardHeader color="blue-gray" className="relative h-56">
           <img
             src={image}

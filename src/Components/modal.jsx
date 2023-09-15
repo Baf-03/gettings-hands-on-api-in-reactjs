@@ -34,9 +34,9 @@ export function DialogSizes(props) {
       >
         <DialogHeader className="flex justify-center w-[100%] bg-gray-500 text-center rounded-lg  " >{title}</DialogHeader>
         
-        <DialogBody className="flex justify-center w-[100%] items-center gap-5">
-            <div className="bg-red-600 w-[50%] flex justify-center border border-black rounded-lg"> <img src={image} className=" w-[100%] h-[50vh]"/></div>
-            <div className=" w-[48%] ml-2">
+        <DialogBody className="flex justify-center w-[100%] items-center gap-5 flex flex-col sm:flex-row ">
+            <div className="bg-red-600 w-[60%] flex justify-center border border-black rounded-lg"> <img src={image} className=" w-[100%] h-[20vh] sm:h-[50vh]"/></div>
+            <div className=" w-[92%] ml-2 ">
                 <div className="flex justify-between">
                     <h1 className="font-bold text-xl text-black">
                         Description</h1>
