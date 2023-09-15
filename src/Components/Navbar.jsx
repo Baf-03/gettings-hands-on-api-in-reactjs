@@ -114,17 +114,17 @@ function ProfileMenu() {
 // nav list menu
 const navListMenuItems = [
   {
-    title: "@material-tailwind/html",
+    title: "Gulshan branch",
     description:
       "Learn how to use @material-tailwind/html, packed with rich components and widgets.",
   },
   {
-    title: "@material-tailwind/react",
+    title: "Bahudarabad branch",
     description:
       "Learn how to use @material-tailwind/react, packed with rich components for React.",
   },
   {
-    title: "Material Tailwind PRO",
+    title: "Under Construction",
     description:
       "A complete set of UI Elements for building faster websites in less time.",
   },
@@ -189,15 +189,15 @@ function NavListMenu() {
 // nav list component
 const navListItems = [
   {
-    label: "Account",
+    label: "Customers",
     icon: UserCircleIcon,
   },
   {
-    label: "Blocks",
+    label: "Branches",
     icon: CubeTransparentIcon,
   },
   {
-    label: "Docs",
+    label: "History",
     icon: CodeBracketSquareIcon,
   },
 ];
@@ -245,7 +245,7 @@ export function ComplexNavbar() {
           href="#"
           className="mr-4 ml-2 cursor-pointer py-1.5 font-medium"
         >
-          FAKE STORE
+          <span className="font-bold">FAKE STORE</span>
         </Typography>
         <div className="absolute top-2/4 left-2/4 hidden -translate-x-2/4 -translate-y-2/4 lg:block">
           <NavList />
